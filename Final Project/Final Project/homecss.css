@@ -1,0 +1,47 @@
+table, th, td
+{
+border: 3px solid black
+}
+
+body
+{
+	font-family: "Arial Black", Verdana, sans-serif;
+	background: #0040ff;
+}
+
+
+
+ul
+{	
+	list-style-type: none;
+	border: 1px solid; 
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #000000;
+}
+
+li
+{ 	text-align: center;
+	float: left;
+}
+
+li a
+{
+	display: block;
+	color:  #cc5200;
+	text-align: center;
+	padding: 20px;
+	text-decoration: 
+}
+
+.content
+{
+  max-width: 500px;
+  margin: auto;
+}
+
+.active
+{
+	background-color: white;
+}

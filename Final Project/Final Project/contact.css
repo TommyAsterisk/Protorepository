@@ -1,0 +1,38 @@
+
+
+body
+{
+	font-family:Verdana, sans-serif;
+	background: #0040ff;
+}
+
+ul
+{	
+	list-style-type: none;
+	border: 1px solid; 
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #000000;
+}
+
+
+li a
+{	float: left;
+	display: block;
+	color:  #cc5200;
+	text-align: center;
+	padding: 20px;
+	text-decoration: 
+}
+
+.active
+{
+	background-color: white;
+}
+
+.content
+{
+  max-width: 500px;
+  margin: auto;
+}
