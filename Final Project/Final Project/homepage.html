@@ -2,7 +2,16 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="homecss.css">
+	
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#hours").show();
+    });
+});
+</script>
 	<title>A Catalogue For Your Childhood - Homepage</title>
+
 </head>
 <body>
 <div class="content">
@@ -12,9 +21,11 @@
 
 <h2>Cartoon of the Week</h2>
 <img src="http://static.tvtropes.org/pmwiki/pub/images/eltigre1.jpg" width="450" height="400">
-<p><i>El Tigre: The Adventures of Manny Rivera</i> is an animated series produced for Nickelodeon and Nicktoons Network. The show is set in the fictional crime-ridden Mexican town of Miracle City, El Tigre follows the adventures of Manny Rivera, a regular 13-year-old boy who is having trouble using his powers as El Tigre. He wants to be good, but being bad is much more fun in his vision. His father, a superhero known as White Pantera, wants Manny to grow up to be good and fight evil, but Manny's Grandpapi, a supervillain known as Puma Loco, thinks Manny should go to the dark side. </p>
 
-<table>
+<p><i>El Tigre: The Adventures of Manny Rivera</i> is an animated series produced for Nickelodeon and Nicktoons Network. The show is set in the fictional crime-ridden Mexican town of Miracle City, El Tigre follows the adventures of Manny Rivera, a regular 13-year-old boy who is having trouble using his powers as El Tigre. He wants to be good, but being bad is much more fun in his vision. His father, a superhero known as White Pantera, wants Manny to grow up to be good and fight evil, but Manny's Grandpapi, a supervillain known as Puma Loco, thinks Manny should go to the dark side. </p>
+<button>Click Here To Find Out How Long It Would Take To Watch All Of El Tigre!</button>
+
+<table class="timeTable" id="hours">
 	<tr>
 		<th>Episodes</th>
 		<th>Time to Watch</th>
