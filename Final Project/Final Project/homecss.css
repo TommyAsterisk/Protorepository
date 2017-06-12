@@ -9,7 +9,10 @@ body
 	background: #0040ff;
 }
 
-
+.timeTable
+{
+	display: none;
+}
 
 ul
 {	
